@@ -7,49 +7,54 @@
         {
             "name": "movilidad",
             "children": [
-    
-            {"name": "identidad:comprobada",
-            "children":[
-                    {"name": "FP", "value":6}
-            ],
-            "name": "identidad:declarada",
-            "children":[
-                    {"name": "CY", "value":3}
-            ]
-            } 
-            ],
+                          {"name": "identidad:comprobada",
+                            "children":[
+                                {"name": "FP", "value":6}
+                                ]
+                            },
+                            {"name": "identidad:declarada",
+                             "children":[
+                                {"name": "CY", "value":3}
+                                ]
+                            }
+                        ]
+        },
+        {
             "name": "motor",
             "children": [
-        
-                {"name": "identidad:comprobada",
-                "children":[
-                        {"name": "AP-EXP", "value":9}
-                ]             
-                }
-                ], 
+                            {"name": "identidad:comprobada",
+                             "children":[
+                                {"name": "AP-EXP", "value":9}
+                             ]
+                             }
+                        ]
+        },
+        { 
             "name": "insurace",
             "children": [
-        
-                {"name": "identidad:comprobada",
-                "children":[
-                        {"name": "AL", "value":4}
-                ]             
-                }
-                ],
+                            {"name": "identidad:comprobada",
+                            "children":[
+                                {"name": "AL", "value":4}
+                            ]
+                            }
+                        ]
+        },
+        {
             "name": "banks",
             "children": [
-        
-                {"name": "identidad:comprobada",
-                "children":[
-                        {"name": "bb", "value":20},
-                        {"name": "gb", "value":21},
-                        {"name": "rb", "value":4},
-                        {"name": "yb", "value":9}
-                ]             
-                }
-                ]
-            }
-        ],
+                            {"name": "identidad:comprobada",
+                            "children":[
+                                {"name": "bb", "value":20},
+                                {"name": "gb", "value":21},
+                                {"name": "rb", "value":4},
+                                {"name": "yb", "value":9}
+                            ]
+                            }
+                        ]
+        }
+        ]
+    },
+    {
         "name": "interests",
          "children": [
             {

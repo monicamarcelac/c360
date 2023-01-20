@@ -7,12 +7,12 @@
         {
             "name": "movilidad",
             "children": [
-                          {"name": "identidad:comprobada",
+                          {"name": "id:comprobada",
                             "children":[
                                 {"name": "FP", "value":6}
                                 ]
                             },
-                            {"name": "identidad:declarada",
+                            {"name": "id:declarada",
                              "children":[
                                 {"name": "CY", "value":3}
                                 ]
@@ -22,7 +22,7 @@
         {
             "name": "motor",
             "children": [
-                            {"name": "identidad:comprobada",
+                            {"name": "id:comprobada",
                              "children":[
                                 {"name": "AP-EXP", "value":9}
                              ]
@@ -32,7 +32,7 @@
         { 
             "name": "insurace",
             "children": [
-                            {"name": "identidad:comprobada",
+                            {"name": "id:comprobada",
                             "children":[
                                 {"name": "AL", "value":4}
                             ]
@@ -42,7 +42,7 @@
         {
             "name": "banks",
             "children": [
-                            {"name": "identidad:comprobada",
+                            {"name": "id:comprobada",
                             "children":[
                                 {"name": "bb", "value":20},
                                 {"name": "gb", "value":21},
@@ -57,32 +57,33 @@
     {
         "name": "interests",
          "children": [
-            {
-                "name": "movilidad",
+        {
+            "name": "movilidad",
             "children": [
-    
-            {"name": "identidad:declarada",
-            "children":[
-                    {"name": "CY", "value":1}
-            ],
-            "name": "identidad:inferida",
-            "children":[
-                    {"name": "CY", "value":1}
-            ]
-            } 
-            ], 
+                            {"name": "id:declarada",
+                            "children":[
+                                {"name": "CY", "value":1}
+                            ]
+                            },
+                            {"name": "id:inferida",
+                            "children":[
+                                {"name": "CY", "value":1}
+                            ]
+                            }
+                        ]
+        },
+        {
             "name": "insurace",
             "children": [
-        
-                {"name": "identidad:declarada",
-                "children":[
-                        {"name": "AL", "value":3}
-                ]             
-                }
-                ]
-            }
-        ]
-     }
+                            {"name": "id:declarada",
+                            "children":[
+                                {"name": "AL", "value":3}
+                            ]
+                            }
+                        ]
+        }
+    ]
+    }
     ]
 }
         
